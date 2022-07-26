@@ -1,9 +1,9 @@
 version: '3.6'
 
 services:
-  ubuntu-base:
+  ubuntu-18-base:
     build: .
-    image: hackinglab/ubuntu-base:3.2
+    image: hackinglab/ubuntu-18-base:3.2
     environment:
       - HL_USER_USERNAME=hacker
       - HL_USER_PASSWORD=compass
